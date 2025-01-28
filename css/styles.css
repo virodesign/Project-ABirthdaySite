@@ -59,7 +59,7 @@ h1 {
 .hero{
     height: 550px;
     padding: 4rem 0;
-    background-image: url("https://unsplash.it/1200/900?blur&ramdom");
+    background-image: url("https://images.unsplash.com/photo-1530209925954-8aecf4eb1e43?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -70,19 +70,19 @@ h1 {
 }
 
 .avatar{
-    background-image: url("https://uc81c6fa022b2ec9c0b6c4d06eb0.previews.dropboxusercontent.com/p/thumb/AChts4bfoI9EHNGm_bv9YyHKlDuqFAOsRSXVHgESs2Fq99Kdu-RfCNUPJPTB40J_JPPAGfmxjpGXa5wn0zcv0Tyad1Yn99iM-ZOdU7TPJP7BSrhDl4STBA7vdb6ocPj9vqdACpvOne7JV8ZVG4QB9Yebqc4oKcNje2iH-hfTwa-OjPy83G13Hb5IcqyNDsU5OSDv6iEbP-heMGZbOOtzzEFh1cdUrRQe2fhCcQxPpDEos07Fy2wd6L57IvTWKee21evd6BBZNKuifu6VS1c7jWgphuVtlBVXS7BuCBB9GAM9R0vWRXJXm8D-nvSLvnfnA0mcvOJ8FnydSOpA7vWuz6gvjrB2HJWCqJnfQeXiyRsgPMDj5P1qPkz_kABa6dl7TbvaEHJXpy1Cz71debbB5RVr/p.jpeg?is_prewarmed=true"
-    );
+    background-image: url("https://www.dropbox.com/scl/fi/wt50o86bcf60rl2d9kfx3/IMG4783LP-birthdaycard.jpg?rlkey=p4a36eiz5bgnbeezbqeuohx9h&st=7zrprry1&dl=0");
     width: 250px;
     height: 250px;
     background-position: top left;
     background-size: cover;
     border-radius: 100%;
-    border: 4px solid black;
+    border: 4px solid rgba(252, 252, 252, 0.296);
 }
 
 
 .section-gift{
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 
@@ -99,9 +99,13 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .happy:hover{
     background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHR6eGtubmR1N3Q0b3lrcHU1dnpjMHA3YjZlbnZ3dmVydDdwa3c4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JJsJQY6yj9HLaZW/giphy.gif");
+}
+
+.amazed:hover{
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Q1dDduc2UydTc0cWI4b2RzYTJtZGxxbHNrb3IxNWI4bHdsMjJxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3XR0chfiSTtAI/giphy.gif");
 }
